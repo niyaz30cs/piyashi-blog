@@ -66,7 +66,7 @@ function Bollywood() {
                     }
                 })}
                 <h1>Advertisement</h1>
-         <img src="https://www.theweek.in/content/dam/week/webworld/feature/society/2016/august/images/maggi-1.jpg.image.470.274.jpg" width={"450"} height={"775"}/>
+         <img src="https://www.theweek.in/content/dam/week/webworld/feature/society/2016/august/images/maggi-1.jpg.image.470.274.jpg" className="addver"/>
             </div>
         </div>
     )

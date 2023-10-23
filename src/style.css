@@ -342,3 +342,116 @@ hr{
 {
     width: 450px;
 }
+.addver
+{
+    width: 450px;
+    height: 775px;
+}
+
+/* media query css */
+
+@media screen and (max-width: 560px){
+      .bollyWoodContainer
+      {
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+      }
+      .bollySet
+      {
+        display: flex;
+        flex-direction: column;
+      }
+      .BollyImage
+      {
+        width: 350px;
+        height: 200px;
+        border-radius: 15px;
+      }
+      .content
+      {
+        width: 360px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+      }
+      .topPostBig
+      {
+        width: 350px;
+      }
+      .topPostContent
+      {
+        display: flex;
+        flex-direction: column;
+      }
+      .topPostImg
+      {
+        width: 300px;
+        border-radius: 15px;
+      }
+      .addver
+      {
+        width: 350px;
+        height: 550px;
+      }
+      .image1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        width: 350px;
+        height: 420px;
+    }
+    .image2 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        height: 200px;
+        width: 350px;
+    }
+    .image3 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        height: 210px;
+        width: 350px;
+    }
+    .latest
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .homeImage
+    {
+        width: 350px;
+    }
+    .homeContent
+    {
+        width: 350px;
+    }
+    .latest-Article
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .singleImge
+    {
+        width: 350px;
+    }
+    .Homeadd {
+        position: relative;
+        left: 10px;
+        width: 350px;
+        height: 500px;
+        border: 2px solid black;
+        background-size: cover;
+    }
+    .storyContainer
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .storyContainer
+    {
+        width: 350px;
+    }
+}
